@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Little Taco Shop</title>
+    <link rel="icon" href="images/favicon.ico">
+    <link rel="stylesheet" href="styles.css">
+    <script src="maker.js" defer></script>
+</head>
+
+<body>
+    <header class="header">
+        <h1 class="header__h1">Little Taco Shop</h1>
+        <nav class="header__nav">
+            <ul class="header__ul">
+                <li><a href="#menu">Menu</a></li>
+                <li><a href="hours.html">Hours</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="about.html">About</a></li>
+            </ul>
+        </nav>
+    </header>
+    <div class="hero">
+        <h2 class="hero__header">Bienvenidos!</h2>
+        <figure class="hero__figure">
+            <img class="hero__img" src="images/tacos_and_drink_1000x667.png" alt="Tacos and drink" title="We love Tacos!">
+            <figcaption class="hero__figcaption">Tacos and drink</figcaption>
+        </figure>
+    </div>
+    
+    <main>
+        <article id="menu" class="main">
+            <h1 class="main__h1">Our Menu</h1>
+            
+            <table class="main__table">
+                
+                <Thead class="main__thead">
+                    <tr class="main__thead-tr">
+                        <th class="main__thead-th caption" colspan="3">Our Tacos</th>
+                    </tr>
+                    <tr class="main__thead-tr">
+                        <th class="main__thead-th">Tacos</th>
+                        <th class="main__thead-th">Quantity</th>
+                        <th class="main__thead-th">Price</th>
+                    </tr>
+                </Thead>
+                <tbody class="main__tbody">
+                    <tr class="main__tbody-tr">
+                        <th class="main__tbody-th" rowspan="3">Crunchy</th>
+                        <td class="main__tbody-td">1</td>
+                        <td class="main__tbody-td">$1.50</td>
+                    </tr>
+                    
+                    <tr class="main__tbody-tr">
+                        <td class="main__tbody-td">2</td>
+                        <td class="main__tbody-td">$2.50</td>
+                    </tr>
+                    
+                    <tr class="main__tbody-tr">
+                        <td class="main__tbody-td">3</td>
+                        <td class="main__tbody-td">$3.25</td>
+                    </tr>
+                    
+                    <tr class="main__tbody-tr">
+                        <th class="main__tbody-th" rowspan="3">Soft</th>
+                        <td class="main__tbody-td">1</td>
+                        <td class="main__tbody-td">$2.00</td>
+                    </tr>
+                    
+                    <tr class="main__tbody-tr">
+                        <td class="main__tbody-td">2</td>
+                        <td class="main__tbody-td">$3.50</td>
+                    </tr>
+                    
+                    <tr class="main__tbody-tr">
+                        <td class="main__tbody-td">3</td>
+                        <td class="main__tbody-td">$4.50</td>
+                    </tr>
+                </tbody>
+                <tfoot class="main__table-tfoot">
+                    <td class="main__tfoot-td" colspan="3">Chips & Salsa $2</td>
+                </tfoot>
+            </table>
+        </article>
+        <p class="main__back-to-top"><a href="#">Back to Top</a></p>
+    </main>
+    <footer class="footer">
+        <p><span class="nowrap">Copyright &copy; <time id="year"></time></span> <span class="nowrap">The Little Taco Shop</span></p>
+    </footer>
+</body>
+</html>
